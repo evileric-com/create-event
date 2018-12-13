@@ -1,3 +1,4 @@
+import * as shortid from 'shortid';
 import keys from '../constants';
 import model from '../model';
 
@@ -5,7 +6,7 @@ export const createEvent = (name: string, date: string) => {
     return (dispatch: (action:any)=>void) => {
         const eventData = {
             date,
-            id: 'asdf',
+            id: shortid(),
             name
         };
 
