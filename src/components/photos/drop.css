@@ -1,0 +1,6 @@
+div.drop {
+    display: block;
+    width: 400px;
+    min-height: 265px;
+    border: dashed green 5px;
+}
